@@ -12,7 +12,7 @@ jobs:
       - run: echo "The workflow is code test on the runner."
       
       - name: Check out repository code
-      uses: actions/checkout@v2
+        uses: actions/checkout@v2
       
       - name: List files on repository
         run: |
